@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/transcend-website/static/css/main.57dda27e.css",
+    "main.js": "/transcend-website/static/js/main.bd68e64b.js",
+    "index.html": "/transcend-website/index.html",
+    "main.57dda27e.css.map": "/transcend-website/static/css/main.57dda27e.css.map",
+    "main.bd68e64b.js.map": "/transcend-website/static/js/main.bd68e64b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.57dda27e.css",
+    "static/js/main.bd68e64b.js"
+  ]
+}
