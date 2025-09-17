@@ -1,0 +1,62 @@
+.tech-stack-container {
+  background: #171717;
+  text-align: center;
+  padding: 60px 0;
+  min-height: 100vh;
+}
+
+.tech-stack-heading {
+  color: #FFD580;
+  font-size: 1rem;
+  letter-spacing: 2px;
+  margin-bottom: 16px;
+  font-weight: bold;
+}
+
+.tech-stack-title {
+  color: #fff;
+  font-size: 2.7rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+  line-height: 1.1;
+}
+
+.master-gradient {
+  background: linear-gradient(90deg, #08c6fb 40%, #51df70 60%, #ffb545 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 700;
+}
+
+.tech-stack-desc {
+  color: #b3b3b3;
+  font-size: 1.07rem;
+  margin-bottom: 40px;
+}
+
+.tech-stack-tools {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 22px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.tech-tool-btn {
+  background: #222;
+  color: #fff;
+  padding: 13px 34px;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 500;
+  border: none;
+  transition: background 0.2s;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.11);
+  cursor: pointer;
+}
+
+.tech-tool-btn:hover {
+  background: #3a3a3a;
+}

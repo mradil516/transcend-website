@@ -1,0 +1,153 @@
+.contact {
+  padding: 80px 20px;
+  background: #0d0d0d;
+  color: #fff;
+  text-align: center;
+}
+
+.contact-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.contact-title .highlight {
+  background: linear-gradient(90deg, #00ffaa, #ffaa00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.contact-subtitle {
+  font-size: 1rem;
+  color: #bbb;
+  margin-bottom: 40px;
+}
+
+.contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.contact-form,
+.contact-info {
+  flex: 1;
+  min-width: 320px;
+  background: #1a1a1a;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+}
+
+.contact-form h3,
+.contact-info h3 {
+  margin-bottom: 20px;
+  color: #00ffaa;
+}
+
+.form-row {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  background: #0f0f0f;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #777;
+}
+
+.btn-submit {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(90deg, #00aaff, #00ffaa);
+  border: none;
+  border-radius: 8px;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-submit:hover {
+  background: linear-gradient(90deg, #ffaa00, #ff0080);
+  color: #fff;
+}
+
+.contact-info ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 25px;
+}
+
+.contact-info li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.contact-info .icon {
+  font-size: 1.5rem;
+  margin-right: 12px;
+}
+
+.contact-info strong {
+  display: block;
+  color: #fff;
+}
+
+.socials h4 {
+  margin-bottom: 10px;
+}
+
+.social-links {
+  display: flex;
+  gap: 12px;
+}
+
+.social-links a {
+  color: #bbb;
+  text-decoration: none;
+  background: #0f0f0f;
+  padding: 8px 12px;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+.social-links a:hover {
+  background: #00ffaa;
+  color: #000;
+}
+
+.availability {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  margin-top: 20px;
+  background: #111;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #222;
+}
+
+.availability .dot {
+  width: 12px;
+  height: 12px;
+  background: #00ff87;
+  border-radius: 50%;
+  margin-top: 5px;
+}
